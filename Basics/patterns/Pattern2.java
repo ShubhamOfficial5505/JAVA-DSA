@@ -8,7 +8,8 @@ public class Pattern2 {
 
         System.out.print("Enter n: ");
         int n = scn.nextInt();
-
+        
+        // rows
         int row = 1;
         while(row <= n) {
             // work
