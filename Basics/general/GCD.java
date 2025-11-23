@@ -1,3 +1,5 @@
+package general;
+
 import java.util.Scanner;
 
 public class GCD {
@@ -16,6 +18,8 @@ public class GCD {
 		}
 		
 		System.out.println("GCD is " + num1);
+
+		scn.close();
 	}
 }
 

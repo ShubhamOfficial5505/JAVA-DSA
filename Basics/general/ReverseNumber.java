@@ -1,3 +1,5 @@
+package general;
+
 import java.util.Scanner;
 
 public class ReverseNumber {
@@ -17,5 +19,7 @@ public class ReverseNumber {
 		}
 		
 		System.out.println("The reverse of the number is " + reverseNum);
+
+		scn.close();
 	}
 }

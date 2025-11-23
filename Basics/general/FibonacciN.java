@@ -1,6 +1,8 @@
+package general;
+
 import java.util.Scanner;
 
-class FibonacciN {
+public class FibonacciN {
     public static void main(String args[]) {
         Scanner scn = new Scanner(System.in);
 
@@ -21,5 +23,7 @@ class FibonacciN {
 
             counter++;
         }
+
+        scn.close();
     }
 }
