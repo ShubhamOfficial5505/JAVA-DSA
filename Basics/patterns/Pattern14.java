@@ -17,7 +17,7 @@ public class Pattern14 {
 		int nr = (2 * n) - 1;
 		while(row <= nr) {
 			if(row <= ((nr / 2) + 1)) val = row;
-			else val = (nr - row) + 1;
+			else val = (nr - row) + 1; // rows (increasing) and values (decreasing) -> value = f(total rows - present row)
 			
 			// work
 			int count = 1;
