@@ -1,0 +1,16 @@
+A Java int[5] array is stored in the heap memory.
+
+It uses 20 bytes for the 5 integers (5 × 4 bytes).
+
+If the base address is 100, the array occupies 100 to 119.
+
+120 is the first byte after the array and acts as the outer boundary.
+
+Element byte ranges:
+index 0 → 100–103
+index 1 → 104–107
+index 2 → 108–111
+index 3 → 112–115
+index 4 → 116–119
+
+Indexing uses the starting byte of each element (100, 104, 108, 112, 116).
