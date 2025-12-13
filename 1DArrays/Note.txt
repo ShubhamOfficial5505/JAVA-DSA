@@ -13,4 +13,6 @@ index 2 → 108–111
 index 3 → 112–115
 index 4 → 116–119
 
-Indexing uses the starting byte of each element (100, 104, 108, 112, 116).
+Indexing uses the starting byte of each element (100, 104, 108, 112, 116) for both getting and setting values.
+
+No need to think about bits at all.
