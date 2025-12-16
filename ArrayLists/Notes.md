@@ -18,7 +18,7 @@
    - The base address inside the ArrayList object is updated to point to this new array.
 
 5. **Adding Further Elements**
-   - Java checks whether size == capacity.
+   - Java checks whether size == capacity. (size can thought of as the number of elements in the array)
    - If there is space, the element is added directly.
 
 6. **Resizing When Full**
@@ -52,6 +52,6 @@ int val = list.get(0); // Integer is unboxed to int
 ```
 
 11. **ArrayList with Specified Capacity**
-    - If an ArrayList is initialized with a specified capacity, it immediately creates an internal array of that size.
+    - If an ArrayList is initialized with a specified capacity, it immediately creates an internal array of that length.
     - The ArrayList object’s base address points to this array from the start.
     - Rest of the behavior (adding elements, resizing if exceeded, indexing, removing, autoboxing) remains the same.
